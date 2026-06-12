@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ratgeber & Leitfäden | EasyGov.io</title>
+  <meta name="description" content="Alle Ratgeber zu Sozialleistungen, Aufenthaltsrecht und Behördengängen in Deutschland. Einfach erklärt, amtlich geprüft.">
+  <link rel="canonical" href="https://easygov.io/de/">
+  <link rel="alternate" hreflang="de" href="https://easygov.io/de/">
+  <link rel="alternate" hreflang="tr" href="https://easygov.io/tr/">
+  <link rel="alternate" hreflang="en" href="https://easygov.io/en/">
+  <link rel="alternate" hreflang="x-default" href="https://easygov.io/de/">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --navy: #04162E;
+      --navy-mid: #0a2a4a;
+      --gold: #F6B45F;
+      --gold-soft: rgba(246,180,95,0.12);
+      --bg: #f4f7fc;
+      --text: #1a2c3e;
+      --muted: #5b7a97;
+      --border: #dde6ef;
+      --white: #ffffff;
+    }
+
+    body {
+      background: var(--bg);
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    nav {
+      background: var(--navy);
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-logo {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--white);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-lang {
+      display: flex;
+      gap: 6px;
+    }
+    .nav-lang a {
+      color: rgba(255,255,255,0.55);
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.15);
+      transition: 0.2s;
+    }
+    .nav-lang a.active,
+    .nav-lang a:hover {
+      color: var(--navy);
+      background: var(--gold);
+      border-color: var(--gold);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy);
+      padding: 56px 24px 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 50% at 50% 100%, rgba(246,180,95,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      background: var(--gold-soft);
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(246,180,95,0.25);
+    }
+    .hero h1 {
+      color: var(--white);
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 700;
+      line-height: 1.25;
+      max-width: 560px;
+      margin: 0 auto 16px;
+    }
+    .hero h1 em {
+      font-style: normal;
+      color: var(--gold);
+    }
+    .hero p {
+      color: rgba(255,255,255,0.65);
+      font-size: 1rem;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+    .hero-cta {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 13px 28px;
+      border-radius: 40px;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .hero-cta:hover { background: #e5a44e; }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+    .stat {
+      padding: 18px 32px;
+      text-align: center;
+      border-right: 1px solid var(--border);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-num {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--navy);
+      display: block;
+    }
+    .stat-label {
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    /* ── MAIN CONTENT ── */
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ── CATEGORY SECTIONS ── */
+    .category-section {
+      padding: 48px 0 0;
+    }
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid var(--border);
+    }
+    .category-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--gold-soft);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      border: 1px solid rgba(246,180,95,0.2);
+    }
+    .category-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .category-count {
+      margin-left: auto;
+      font-size: 0.75rem;
+      color: var(--muted);
+      background: var(--bg);
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+    }
+
+    /* ── ARTICLE GRID ── */
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+    .article-card {
+      background: var(--white);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 22px;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+    }
+    .article-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 6px 24px rgba(4,22,46,0.08);
+      transform: translateY(-2px);
+    }
+    .card-tag {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--gold);
+      background: var(--gold-soft);
+      padding: 3px 8px;
+      border-radius: 6px;
+      display: inline-block;
+      align-self: flex-start;
+      border: 1px solid rgba(246,180,95,0.2);
+    }
+    .card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.4;
+    }
+    .card-meta {
+      font-size: 0.75rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: auto;
+    }
+    .card-meta::before {
+      content: '→';
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    /* ── BOTTOM CTA ── */
+    .bottom-cta {
+      background: var(--navy);
+      border-radius: 20px;
+      padding: 40px 32px;
+      text-align: center;
+      margin: 48px 0;
+    }
+    .bottom-cta h2 {
+      color: var(--white);
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+    .bottom-cta p {
+      color: rgba(255,255,255,0.6);
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+    .bottom-cta a {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      font-weight: 700;
+      padding: 13px 28px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: 0.2s;
+    }
+    .bottom-cta a:hover { background: #e5a44e; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.45);
+      text-align: center;
+      padding: 24px;
+      font-size: 0.75rem;
+      line-height: 1.8;
+    }
+    footer a { color: rgba(255,255,255,0.55); text-decoration: none; }
+    footer a:hover { color: var(--gold); }
+
+    @media (max-width: 600px) {
+      .stats-bar { gap: 0; }
+      .stat { padding: 14px 20px; flex: 1 1 50%; border-bottom: 1px solid var(--border); }
+      .article-grid { grid-template-columns: 1fr; }
+      .hero { padding: 40px 20px 36px; }
+      .bottom-cta { padding: 28px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="https://easygov.io/" class="nav-logo">Easy<span>Gov</span>.io</a>
+  <div class="nav-lang">
+    <a href="https://easygov.io/de/" class="active">🇩🇪 DE</a>
+    <a href="https://easygov.io/tr/">🇹🇷 TR</a>
+    <a href="https://easygov.io/en/">🇬🇧 EN</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <span class="hero-eyebrow">⚖️ PACDI | EasyGov.io</span>
+  <h1>Ratgeber für <em>Sozialleistungen</em> &amp; Behördengänge</h1>
+  <p>21 geprüfte Leitfäden zu Aufenthaltsrecht, Sozialleistungen und Bürokratie — klar, kostenlos, mehrsprachig.</p>
+  <a href="https://easygov.io/" class="hero-cta">Anspruch prüfen →</a>
+</div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat">
+    <span class="stat-num">21</span>
+    <span class="stat-label">Ratgeber</span>
+  </div>
+  <div class="stat">
+    <span class="stat-num">3</span>
+    <span class="stat-label">Sprachen</span>
+  </div>
+  <div class="stat">
+    <span class="stat-num">Juni 2026</span>
+    <span class="stat-label">Aktualisiert</span>
+  </div>
+  <div class="stat">
+    <span class="stat-num">100%</span>
+    <span class="stat-label">Kostenlos</span>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+  <!-- KATEGORIE 1 -->
+  <section class="category-section">
+    <div class="category-header">
+      <div class="category-icon">🪪</div>
+      <h2 class="category-title">Aufenthalt &amp; Einbürgerung</h2>
+      <span class="category-count">7 Artikel</span>
+    </div>
+    <div class="article-grid">
+      <a href="https://easygov.io/de/aufenthaltstitel-verlaengern.html" class="article-card">
+        <span class="card-tag">Aufenthalt</span>
+        <span class="card-title">Aufenthaltstitel verlängern — alle Unterlagen auf einen Blick</span>
+        <span class="card-meta">6 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/einbuergerung-voraussetzungen-2026.html" class="article-card">
+        <span class="card-tag">Einbürgerung</span>
+        <span class="card-title">Einbürgerung 2026 — Voraussetzungen, Fristen, Checkliste</span>
+        <span class="card-meta">7 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/blaue-karte-eu-beantragen.html" class="article-card">
+        <span class="card-tag">Arbeitsvisum</span>
+        <span class="card-title">Blaue Karte EU beantragen — Schritt für Schritt</span>
+        <span class="card-meta">5 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/aufenthaltserlaubnis-niederlassungserlaubnis.html" class="article-card">
+        <span class="card-tag">Aufenthalt</span>
+        <span class="card-title">Aufenthaltserlaubnis vs. Niederlassungserlaubnis — der Unterschied</span>
+        <span class="card-meta">5 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/auslaenderbehoerde-termin-tipps.html" class="article-card">
+        <span class="card-tag">Behörde</span>
+        <span class="card-title">Ausländerbehörde Termin — Tipps für eine reibungslose Vorbereitung</span>
+        <span class="card-meta">5 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/familiennachzug-deutschland-antrag.html" class="article-card">
+        <span class="card-tag">Familie</span>
+        <span class="card-title">Familiennachzug nach Deutschland beantragen</span>
+        <span class="card-meta">7 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/niederlassungserlaubnis-beantragen.html" class="article-card">
+        <span class="card-tag">Dauerhaft</span>
+        <span class="card-title">Niederlassungserlaubnis beantragen — Voraussetzungen 2026</span>
+        <span class="card-meta">6 Min. Lesezeit</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- KATEGORIE 2 -->
+  <section class="category-section">
+    <div class="category-header">
+      <div class="category-icon">💶</div>
+      <h2 class="category-title">Sozialleistungen</h2>
+      <span class="category-count">7 Artikel</span>
+    </div>
+    <div class="article-grid">
+      <a href="https://easygov.io/de/buergergeld-rechner-2026.html" class="article-card">
+        <span class="card-tag">Bürgergeld</span>
+        <span class="card-title">Bürgergeld 2026 berechnen — Regelsätze &amp; Anspruch</span>
+        <span class="card-meta">6 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/kindergeld-beantragen-ausfuellhilfe.html" class="article-card">
+        <span class="card-tag">Kindergeld</span>
+        <span class="card-title">Kindergeld beantragen — Ausfüllhilfe Schritt für Schritt</span>
+        <span class="card-meta">5 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/wohngeld-anspruch-tabelle.html" class="article-card">
+        <span class="card-tag">Wohngeld</span>
+        <span class="card-title">Wohngeld 2026 — Anspruchstabelle &amp; Berechnungsbeispiele</span>
+        <span class="card-meta">6 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/pflegegrad-beantragen-schritt.html" class="article-card">
+        <span class="card-tag">Pflege</span>
+        <span class="card-title">Pflegegrad beantragen — Schritt für Schritt erklärt</span>
+        <span class="card-meta">7 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/grundrente-beantragen-voraussetzungen.html" class="article-card">
+        <span class="card-tag">Rente</span>
+        <span class="card-title">Grundrente beantragen — Voraussetzungen &amp; Höhe</span>
+        <span class="card-meta">5 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/elterngeld-berechnen-antrag.html" class="article-card">
+        <span class="card-tag">Elterngeld</span>
+        <span class="card-title">Elterngeld berechnen &amp; Antrag richtig ausfüllen</span>
+        <span class="card-meta">6 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/krankenversicherung-ohne-arbeit.html" class="article-card">
+        <span class="card-tag">Krankenversicherung</span>
+        <span class="card-title">Krankenversicherung ohne Arbeit — was gilt wann?</span>
+        <span class="card-meta">5 Min. Lesezeit</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- KATEGORIE 3 -->
+  <section class="category-section">
+    <div class="category-header">
+      <div class="category-icon">📋</div>
+      <h2 class="category-title">Dokumente &amp; Bürokratie</h2>
+      <span class="category-count">7 Artikel</span>
+    </div>
+    <div class="article-grid">
+      <a href="https://easygov.io/de/gewerbe-anmelden-schritt.html" class="article-card">
+        <span class="card-tag">Gewerbe</span>
+        <span class="card-title">Gewerbe anmelden — Schritt für Schritt zum Gewerbeschein</span>
+        <span class="card-meta">6 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/steuererklaerung-anfaenger-tipps.html" class="article-card">
+        <span class="card-tag">Steuern</span>
+        <span class="card-title">Steuererklärung für Anfänger — die wichtigsten Tipps</span>
+        <span class="card-meta">7 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/elterngeld-antrag-fehler.html" class="article-card">
+        <span class="card-tag">Elterngeld</span>
+        <span class="card-title">Elterngeld Antrag — häufige Fehler &amp; wie man sie vermeidet</span>
+        <span class="card-meta">5 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/anmeldung-deutschland-unterlagen.html" class="article-card">
+        <span class="card-tag">Anmeldung</span>
+        <span class="card-title">Anmeldung in Deutschland — alle Unterlagen &amp; Ablauf</span>
+        <span class="card-meta">4 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/behoerdendeutsch-woerterbuch.html" class="article-card">
+        <span class="card-tag">Sprache</span>
+        <span class="card-title">Behördendeutsch einfach erklärt — das wichtigste Wörterbuch</span>
+        <span class="card-meta">8 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/rentenbescheid-verstehen.html" class="article-card">
+        <span class="card-tag">Rente</span>
+        <span class="card-title">Rentenbescheid verstehen &amp; prüfen — Zeile für Zeile</span>
+        <span class="card-meta">6 Min. Lesezeit</span>
+      </a>
+      <a href="https://easygov.io/de/widerspruch-einlegen-behoerde.html" class="article-card">
+        <span class="card-tag">Widerspruch</span>
+        <span class="card-title">Widerspruch einlegen — Musterschreiben &amp; Fristen</span>
+        <span class="card-meta">6 Min. Lesezeit</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- BOTTOM CTA -->
+  <div class="bottom-cta">
+    <h2>Welche Leistungen stehen Ihnen zu?</h2>
+    <p>In 5 Minuten herausfinden — kostenlos, anonym, mehrsprachig.</p>
+    <a href="https://easygov.io/">Jetzt Anspruch prüfen →</a>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    <a href="https://easygov.io/">EasyGov.io</a> ·
+    <a href="https://easygov.io/de/">Deutsch</a> ·
+    <a href="https://easygov.io/tr/">Türkçe</a> ·
+    <a href="https://easygov.io/en/">English</a>
+  </p>
+  <p style="margin-top:8px">
+    © 2026 AskMeAI Teknoloji Ltd. Şti. | PACDI Global · Alle Angaben ohne Gewähr · Keine Rechtsberatung
+  </p>
+</footer>
+
+</body>
+</html>
