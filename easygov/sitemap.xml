@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ANA SAYFA -->
+  <url>
+    <loc>https://easygov.io/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://easygov.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://easygov.io/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://easygov.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://easygov.io/"/>
+  </url>
+
+  <!-- BLOG INDEX SAYFALAR -->
+  <url>
+    <loc>https://easygov.io/de/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://easygov.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://easygov.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://easygov.io/en/"/>
+  </url>
+  <url>
+    <loc>https://easygov.io/tr/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://easygov.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://easygov.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://easygov.io/en/"/>
+  </url>
+  <url>
+    <loc>https://easygov.io/en/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://easygov.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://easygov.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://easygov.io/en/"/>
+  </url>
+
+  <!-- ===== DE MAKALELER (21 dosya) ===== -->
+  <url><loc>https://easygov.io/de/anmeldung-deutschland-unterlagen.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/aufenthaltserlaubnis-niederlassungserlaubnis.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/aufenthaltstitel-verlaengern-unterlagen.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/auslaenderbehoerde-termin-tipps.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/behoerdendeutsch-woerterbuch.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/blaue-karte-eu-beantragen.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/buergergeld-rechner-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/einbuergerung-voraussetzungen-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/elterngeld-antrag-fehler.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/elterngeld-berechnen-antrag.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/familiennachzug-deutschland-antrag.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/gewerbe-anmelden-schritt.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/grundrente-beantragen-voraussetzungen.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/kindergeld-beantragen-ausfuellhilfe.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/krankenversicherung-ohne-arbeit.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/niederlassungserlaubnis-beantragen.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/pflegegrad-beantragen-schritt.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/rentenbescheid-verstehen.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/steuererkaerung-anfaenger-tipps.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/widerspruch-einlegen-behoerde.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/de/wohngeld-anspruch-tabelle.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ===== TR MAKALELER (21 dosya) ===== -->
+  <url><loc>https://easygov.io/tr/almanya-cocuk-parasi-kindergeld-basvurusu.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-ebeveyn-parasi-elterngeld-hesaplama.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-ev-sahibi-onay-belgesi-wohnungsgeberbestaetigung.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-evlilik-yoluyla-oturum-izni.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-ikamet-kaydi-iptali-abmeldung.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-is-arama-vizesi-sartlari.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-kdv-muafiyeti-basvurusu.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-kira-yardimi-wohngeld-kimlere-verilir.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-ozel-saglik-sigortasi-gecis-sartlari.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-sahis-sirketi-kurulumu-gewerbeanmeldung.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-serbest-meslek-freiberufler-basvurusu.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-sermaye-sirketi-gmbh-kurulumu.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-sosyal-konut-belgeleri-wbs.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-ulusal-vize-basvurusu-evraklari.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-vatandaslik-parasi-burgergeld-sartlari.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-vergi-numarasi-steuernummer-cikarma.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-vergi-sinifi-degistirme-formu.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/almanya-yasal-saglik-sigortasi-secimi.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/ikamet-izni-uzatma.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/mavi-kart-ab-basvurusu.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/tr/vatandaslik-sartlari-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ===== EN MAKALELER (23 dosya) ===== -->
+  <url><loc>https://easygov.io/en/anerkennung-berufsabschlus-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/anmeldung-deutschland-unterlag-en.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/ausbildung-in-deutschland.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/behoerdendeutsch-woerterbuch-en.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/blue-card-eu-germany-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/buergergeld-calculator-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/elterngeld-berechnen-antrag-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/elterngeldantrag-fehler.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/extend-residence-permit-germany-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/familiennachzug-deutschland-antrag-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/fernstudium-weiterbildung.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/german-citizenship-naturalization-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/gewerbe-anmelden-schritt-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/grundrente-beantragen-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/kindergeld-beantragen-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/krankenversicherung-ohne-job.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/mastering-auslaenderbehoerde-appointments-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/niederlassungserlaubnis-beantragen-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/pflegegrad-beantragen-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/rentenbescheid-versteh-en-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/residence-permit-vs-permanent-residency-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/steuererkaerung-anfaenger-tipps-en.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://easygov.io/en/wohngeld-anspruch-tabelle-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+</urlset>
